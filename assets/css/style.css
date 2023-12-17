@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* used selector of "header" instead of class selector of ".header" for next 3 CSS rules */
+/* used selector of "header" instead of class selector of ".header" for next 3 selectors */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,7 +25,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-/* Changed div selector to section for next three selectors */
+/* Changed <div> selector to section for next 3 selectors */
 header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -190,13 +190,14 @@ p {
     font-size: 36px;
 }
 
-.footer {
+/* used selector of "footer" instead of class selector of ".footer" for next 3 selectors */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
