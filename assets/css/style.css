@@ -1,3 +1,4 @@
+/* Rearranged CSS to match flow of HTML */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -16,12 +17,14 @@ header {
     color: #ffffff;
 }
 
-header h1 {
+/* removed irrelevant header selector */
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
+/* removed irrelevant header and h1 selector */
+.seo {
     color: #d9dcd6;
 }
 
