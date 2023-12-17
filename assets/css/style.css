@@ -1,4 +1,3 @@
-/* Rearranged CSS to match flow of HTML */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -9,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* used selector of "header" instead of class selector of ".header" for next 3 selectors */
+/* used selector of "header" instead of class selector of ".header" */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,18 +16,18 @@ header {
     color: #ffffff;
 }
 
-/* removed irrelevant header selector */
+/* removed irrelevant 'header' selector */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* removed irrelevant header and h1 selector */
+/* removed irrelevant 'header' and 'h1' selector */
 .seo {
     color: #d9dcd6;
 }
 
-/* Changed <div> selector to section for next 3 selectors */
+/* Changed 'div' selector to 'section' for next 3 selectors */
 header section {
     padding-top: 15px;
     margin-right: 20px;
@@ -37,11 +36,13 @@ header section {
     font-size: 20px;
 }
 
-header section ul {
+/* removed irrelevant selectors */
+ul {
     list-style-type: none;
 }
 
-header section ul li {
+/* removed irrelevant selectors */
+li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -108,7 +109,8 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+/* Consolidated all classes under content section to content-sub and deleted redundant selectors */
+.content-sub {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -117,47 +119,11 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+.content-sub img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+.content-sub h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
