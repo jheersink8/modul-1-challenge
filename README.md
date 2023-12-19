@@ -11,7 +11,7 @@ Challenge 1 of coding boot camp (due date 12.21.2023)
 **WHAT DID YOU LEARN?** There are many ways to code a webpage and get the same result. Even though the originally presented content "worked," the code wasn't at an optimal standard. Although you can code different ways and get the same result, some ways appear to be "more correct" than others. 
 
 ## Usage
-The live final product can be viewed at: 
+The live final product can be viewed at: https://jheersink8.github.io/module-1-challenge/ 
 
 The parameters of this challenge were to serve as a refactor for the client. Some of the change orders include:
 
