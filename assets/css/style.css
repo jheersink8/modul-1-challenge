@@ -28,7 +28,7 @@ h1 {
 }
 
 /* Changed 'div' selector to 'section' for next 3 selectors */
-header section {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
