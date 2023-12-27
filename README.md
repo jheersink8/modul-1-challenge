@@ -38,7 +38,7 @@ The parameters of this challenge were to serve as a refactor for the client. Som
 
 An image of the final product (which is idential to the product provided by the client) can be viewed here: 
 
-![alt text](assets\images\image-final-product.png)
+![alt text](assets/images/image-final-product.png)
 
 ## Credits 
 The original code was presented by Denver University in the Bootcamp course ID DU-VIRT-FSF-PT-12-2023-U-LOLC-MWTH under Module 1 Challenge. All code was modified and submitted by Jordan R. Heersink. 
