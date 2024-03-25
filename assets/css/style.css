@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* used selector of "header" instead of class selector of ".header" */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,6 +16,7 @@ header {
     color: #ffffff;
 }
 
+/* removed irrelevant 'header' selector */
 h1 {
     display: inline-block;
     font-size: 48px;
@@ -24,6 +26,8 @@ h1 {
     color: #d9dcd6;
 }
 
+/* Changed 'div' selector to 'section' for next 3 selectors */
+/* Changed 'div' selector to 'nav' */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,6 +36,8 @@ header nav {
     font-size: 20px;
 }
 
+/* removed ul selector which served no purpose */
+/* removed irrelevant selectors */
 li {
     display: inline-block;
     margin-left: 25px;
@@ -46,6 +52,7 @@ p {
     font-size: 16px;
 }
 
+/* Moved background image to HTML. Modified CSS to represent original content. */
 .hero {
     height: 800px;
     width: 100%;
@@ -80,6 +87,7 @@ p {
     background-color: #2589bd;
 }
 
+/* Consolidated all benefit-XXXXXX classes to benefit-sub and deleted redundant selectors */
 .benefit-sub {
     margin-bottom: 32px;
     color: #ffffff;
@@ -96,6 +104,7 @@ p {
     max-width: 150px;
 }
 
+/* Consolidated all classes under content section to content-sub and deleted redundant selectors */
 .content-sub {
     margin-bottom: 20px;
     padding: 50px;
@@ -114,6 +123,7 @@ p {
     font-size: 36px;
 }
 
+/* used selector of "footer" instead of class selector of ".footer" for next 2 selectors */
 footer {
     padding: 30px;
     clear: both;
